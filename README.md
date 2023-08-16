@@ -221,5 +221,6 @@ Filebeat logstash health
 curl http://localhost:9200/filebeat-*/_count?pretty
 ```
 Log Flow
-```journalctl -u filebeat.service
+```
+journalctl -u filebeat.service
 ```
